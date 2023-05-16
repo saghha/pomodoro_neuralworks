@@ -9,7 +9,7 @@ import { defineComponent } from 'vue';
 import Pomodoro from './Pomodoro.vue'
 
 export default defineComponent({
-  name: 'HelloWorld',
+  name: 'BaseLayout',
   components: {
     Pomodoro
   },

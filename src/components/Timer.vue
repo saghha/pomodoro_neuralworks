@@ -13,7 +13,7 @@
     <div class="col-12 pt-2">
       <button class="btn btn-lg btn-primary" v-if="!started" @click="startTimer()">¡Comenzar!</button>
       <button class="btn btn-lg btn-primary" v-if="started" @click="handleCycle()">
-        <span v-if="!paused">Pauser</span>
+        <span v-if="!paused">Pausar</span>
         <span v-else>Reanudar</span>
       </button>
     </div>
